@@ -11,7 +11,7 @@ export function TodoRedux() {
     }, [dispatch]);
     if (status === 'loading') return <p>Loading...</p>;
     return (
-        <div>
+        <div className="container">
             <h2>Redux Users</h2>
             <ul>
                 {users.map(user => (

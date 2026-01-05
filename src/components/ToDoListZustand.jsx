@@ -9,7 +9,7 @@ export function TodoZustand() {
     }, []);
     if (loading) return <p>Loading...</p>;
     return (
-        <div>
+        <div className="container">
             <h2>Zustand Users</h2>
             <ul>
                 {users.map(user => (
